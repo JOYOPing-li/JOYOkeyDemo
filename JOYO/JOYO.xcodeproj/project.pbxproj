@@ -15,6 +15,7 @@
 		E3514A901DF171BF00D3A475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3514A8F1DF171BF00D3A475 /* Assets.xcassets */; };
 		E3514A931DF171BF00D3A475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3514A911DF171BF00D3A475 /* LaunchScreen.storyboard */; };
 		E3514A9D1DF1768A00D3A475 /* addTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = E3514A9C1DF1768A00D3A475 /* addTouch.m */; };
+		E3514AC61DF17CF200D3A475 /* muViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3514AC51DF17CF200D3A475 /* muViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		E3514A941DF171BF00D3A475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3514A9B1DF1768A00D3A475 /* addTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addTouch.h; sourceTree = "<group>"; };
 		E3514A9C1DF1768A00D3A475 /* addTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTouch.m; sourceTree = "<group>"; };
+		E3514AC41DF17CF200D3A475 /* muViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muViewController.h; sourceTree = "<group>"; };
+		E3514AC51DF17CF200D3A475 /* muViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = muViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 			children = (
 				E3514A9B1DF1768A00D3A475 /* addTouch.h */,
 				E3514A9C1DF1768A00D3A475 /* addTouch.m */,
+				E3514AC41DF17CF200D3A475 /* muViewController.h */,
+				E3514AC51DF17CF200D3A475 /* muViewController.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3514AC61DF17CF200D3A475 /* muViewController.m in Sources */,
 				E3514A881DF171BF00D3A475 /* ViewController.m in Sources */,
 				E3514A9D1DF1768A00D3A475 /* addTouch.m in Sources */,
 				E3514A851DF171BF00D3A475 /* AppDelegate.m in Sources */,
@@ -325,6 +331,7 @@
 				E3514A991DF171BF00D3A475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

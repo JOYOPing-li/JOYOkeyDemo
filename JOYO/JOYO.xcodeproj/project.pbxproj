@@ -14,6 +14,7 @@
 		E3514A8E1DF171BF00D3A475 /* JOYO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3514A8C1DF171BF00D3A475 /* JOYO.xcdatamodeld */; };
 		E3514A901DF171BF00D3A475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3514A8F1DF171BF00D3A475 /* Assets.xcassets */; };
 		E3514A931DF171BF00D3A475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3514A911DF171BF00D3A475 /* LaunchScreen.storyboard */; };
+		E3514A9D1DF1768A00D3A475 /* addTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = E3514A9C1DF1768A00D3A475 /* addTouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		E3514A8F1DF171BF00D3A475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3514A921DF171BF00D3A475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3514A941DF171BF00D3A475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3514A9B1DF1768A00D3A475 /* addTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addTouch.h; sourceTree = "<group>"; };
+		E3514A9C1DF1768A00D3A475 /* addTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTouch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		E3514A7F1DF171BF00D3A475 /* JOYO */ = {
 			isa = PBXGroup;
 			children = (
+				E3514A9A1DF1765E00D3A475 /* view */,
 				E3514A831DF171BF00D3A475 /* AppDelegate.h */,
 				E3514A841DF171BF00D3A475 /* AppDelegate.m */,
 				E3514A861DF171BF00D3A475 /* ViewController.h */,
@@ -80,6 +84,15 @@
 				E3514A811DF171BF00D3A475 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3514A9A1DF1765E00D3A475 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3514A9B1DF1768A00D3A475 /* addTouch.h */,
+				E3514A9C1DF1768A00D3A475 /* addTouch.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3514A881DF171BF00D3A475 /* ViewController.m in Sources */,
+				E3514A9D1DF1768A00D3A475 /* addTouch.m in Sources */,
 				E3514A851DF171BF00D3A475 /* AppDelegate.m in Sources */,
 				E3514A8E1DF171BF00D3A475 /* JOYO.xcdatamodeld in Sources */,
 				E3514A821DF171BF00D3A475 /* main.m in Sources */,
